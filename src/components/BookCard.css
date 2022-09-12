@@ -1,0 +1,49 @@
+.book-card-wrapper{
+ width: 200px; 
+ height: 300px;
+ border:#8D1BFF solid 2px; 
+ margin-right: 0px;
+ border-radius: 7px;
+ position: relative;
+}
+
+.bookimg-wrapper{
+ height: 300px;
+ width: 200px;
+ object-fit: cover;
+}
+.book-img{
+ height: 100%;
+ width: 100%;
+ margin:0px 0px;
+ filter: brightness(0.8);
+ 
+
+}
+
+.title{
+ position: absolute;
+ top: 60%;
+ left: 5%;
+ font-size: 20px;
+}
+
+.author{
+ padding: 0px; 
+ margin: 0px;
+ font-size: 18px;
+ font-weight: bold;
+ font-style: italic;
+ position: absolute;
+ top:90%;
+}
+
+.book-card-wrapper:hover{
+ cursor: pointer;
+
+}
+
+.book-img:hover{
+ filter: brightness(1);
+ transition: all .3s ease-in-out;
+}
