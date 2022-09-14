@@ -2,10 +2,19 @@
  width: 200px; 
  height: 300px;
  border:#8D1BFF solid 2px; 
- margin-right: 0px;
+ margin: 30px;
  border-radius: 7px;
  position: relative;
+ box-shadow: 8px 8px #d270ff;
+ gap: 20px;
 }
+.book-card-wrapper:hover{
+ box-shadow: 12px 12px #d270ff;
+ transition: all .2s ease-out;
+ 
+}
+
+
 
 .bookimg-wrapper{
  height: 300px;
@@ -23,11 +32,15 @@
 
 .title{
  position: absolute;
- top: 60%;
+ top: 100%;
  left: 5%;
- font-size: 20px;
+ font-size: 15px;
+ display:none;
 }
 
+.title-cover{
+ width: 40px;
+}
 .author{
  padding: 0px; 
  margin: 0px;

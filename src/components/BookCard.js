@@ -9,7 +9,10 @@ function BookCard({b_title,b_img,b_author,b_comments}) {
      <img className="book-img"src={b_img} alt="" />
      </div>
      <div className="info-bg">
+     <div className="title-cover">
      <p className="title">{b_title}</p>
+     </div>
+     
      <p className="author">- By {b_author}</p>
      </div>
      </div>

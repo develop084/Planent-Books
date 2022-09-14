@@ -11,11 +11,11 @@ function HomePage() {
         <Link to="/">
           <img src="Group 4.svg" alt="logo" />
           </Link>
-        </div>
+        </div>  
         <div className="btn-wrapper">
           <Link to="/add">
             <button className="btn">
-              <span>💜</span>
+              <span>➕</span>
               Add Book
             </button>
           </Link>
